@@ -21,7 +21,6 @@ CREATE  TABLE IF NOT EXISTS `capaisajismo_bd`.`clientes` (
   `fecha_creacion` DATETIME NULL DEFAULT NULL ,
   `fecha_modificacion` DATETIME NULL DEFAULT NULL ,
   `estado` INT(11) NOT NULL ,
-  `servicios_servicio_id` INT(11) NOT NULL ,
   PRIMARY KEY (`cliente_id`) )
 ENGINE = InnoDB
 AUTO_INCREMENT = 2
